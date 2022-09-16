@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Ms Gilmore website </title>
+        <style>
+            body {
+                background: rgb(28, 134, 34);
+                color: rgb(89, 17, 148);
+                padding: 10px;
+                font-family: arial;
+            }
+            #all-contents {
+              max-width: 800px;
+                margin: auto;
+            }
+         
+            /* navigation menu */
+            nav {
+                background: rgb(83, 22, 196);
+               margin: 0 auto;
+               margin-bottom: 20px;
+                display: flex;
+                padding: 10px;
+            }
+            h1 {
+                display: flex;
+                align-items: center;
+                color: rgb(219, 105, 133);
+                flex: 1;
+                margin: 0;
+            }
+            #nav-ul {
+                list-style-image: none;
+            }
+            .nav-li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            a {
+                text-decoration: none;
+                color: rgb(223, 18, 28);
+            }
+         
+            /* main container area beneath menu */
+            main {
+                background: rgb(223, 166, 9);
+                display: flex;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar-img {
+                width: 200px;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            #interests {
+                border: 4px rgb(7, 196, 85) ridge;
+                padding: 8px;
+            }
+            h2, h3 {
+                margin: 0px;
+            }
+         </style>
+    </head>
+    
+    <body> 
+        <!-- All content goes here -->
+        <div  id="all-contents"> 
+            <nav>
+                <h1>Ms Gilmore Website</h1>
+                <ul id="nav-ul">
+                    <li class="nav-li">
+                      <a href="index.html"> Home </a>
+                    </li>
+                    <li class="nav-li" >
+                      <a href="portfolio.html"> Portfolio </a>
+                    </li>
+                </ul>
+            </nav>
+    
+            <main>
+       <!-- Sidebar section -->
+       <div class="sidebar">
+    <img class="sidebar-img" src="https://www.ncaa.com/_flysystem/public-s3/styles/original/public-s3/images/2022/03/08/GettyImages-1311019527_0.jpg?itok=1WDY-6aW">
+    </div>
+
+    <!-- Content section -->
+    <div class="content">
+        <h2>Shamardrenae Gilmore </h2> 
+        <p>Student at madison high </p>  <!-- Interests section -->
+        <div id="interests">
+            <h3>Interests</h3>
+            <ul>
+                <li> playing basketball</li>
+                <li> been in the band </li>
+                <li>soft ball </li>
+            </ul>
+        </div>
+
+    </div>
+            </main>
+        </div>    
+    </body>
+</html>
